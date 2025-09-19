@@ -14,7 +14,6 @@ public abstract class Game {
     // Costruttore
 
     public Game(String id, String title, int releaseDate, double price) {
-//      if(price < 0) throw new IllegalArgumentException("Price should be a 'positive' value");
         this.id = id;
         this.title = title;
         this.releaseDate = releaseDate;
@@ -48,9 +47,10 @@ public abstract class Game {
     }
 
     public void setPrice(double price) {
-//      if(price < 0) throw new IllegalArgumentException("Price should be a 'positive' value");
         this.price = price;
     }
+
+    // Display
 
     @Override
     public String toString() {

@@ -39,14 +39,16 @@ public class BoardGame extends Game {
         this.averageTimePerGame = averageTimePerGame;
     }
 
+    // Display
+
     @Override
     public String toString() {
         return "Board Game {id: " + getId() +
                 ", Title: " + getTitle() +
                 ", Release Date: " + getReleaseDate() +
                 ", Price: " + getPrice() +
-                "playerNumber=" + playerNumber +
-                ", averageTimePerGame=" + averageTimePerGame +
+                ", Players: " + playerNumber +
+                ", Game avarage duration: " + averageTimePerGame +
                 '}';
     }
 }

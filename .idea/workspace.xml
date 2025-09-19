@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e61f82ac-bf73-48bf-bf3b-c73955070b82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/GameManagerSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/MainManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/entities/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/entities/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/entities/Platform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/entities/PlayerNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/model/BoardGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/model/VideoGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/davidebraghi/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/davidebraghi/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/davidebraghi/ApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/davidebraghi/GameManagerSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/GameManagerSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/davidebraghi/MainManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/MainManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/davidebraghi/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/entities/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/davidebraghi/model/BoardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/model/BoardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/davidebraghi/model/VideoGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/model/VideoGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

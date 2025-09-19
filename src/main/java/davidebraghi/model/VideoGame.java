@@ -49,6 +49,8 @@ public class VideoGame extends Game {
         this.gamingTime = gamingTime;
     }
 
+    // Display
+
     @Override
     public String toString() {
         return "VideoGame {id: " + getId() +

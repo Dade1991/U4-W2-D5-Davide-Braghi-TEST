@@ -10,7 +10,11 @@ public class MainManager {
 
     public static void main(String[] args) {
 
+        gamesWarehouse();
 
+    }
+
+    public static void gamesWarehouse() {
         VideoGame videoGame1 = new VideoGame("1", "Metal Gear Solid 4", 2008, 50.00, Platform.XBOX, 20, Genre.ACTION);
         VideoGame videoGame2 = new VideoGame("2", "Apex", 2026, 44.00, Platform.PC, 18, Genre.FPS);
         VideoGame videoGame3 = new VideoGame("3", "Call of Duty", 2001, 36.99, Platform.PS, 50, Genre.FPS);
@@ -25,10 +29,8 @@ public class MainManager {
         BoardGame boardGame5 = new BoardGame("E", "Nemesis", 2017, 120, PlayerNumber.FIVE, 120);
         BoardGame boardGame7 = new BoardGame("F", "Zombicide Invader", 2025, 110.50, PlayerNumber.THREE, 100);
 
-
         System.out.println(videoGame1);
         System.out.println(boardGame1);
-
     }
 }
 
