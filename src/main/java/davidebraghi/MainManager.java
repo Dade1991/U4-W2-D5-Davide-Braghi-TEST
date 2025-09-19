@@ -31,6 +31,7 @@ public class MainManager {
 
         System.out.println(videoGame1);
         System.out.println(boardGame1);
+        
     }
 }
 

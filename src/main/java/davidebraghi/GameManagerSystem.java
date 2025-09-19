@@ -37,7 +37,6 @@ public class GameManagerSystem {
             }
         }
         throw new NoSuchElementException("ID " + id + " not found");
-
     }
 
     // Ricerca per prezzo
