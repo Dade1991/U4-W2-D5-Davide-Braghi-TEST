@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e61f82ac-bf73-48bf-bf3b-c73955070b82" name="Changes" comment="" />
+    <list default="true" id="e61f82ac-bf73-48bf-bf3b-c73955070b82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/GameManagerSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/MainManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/entities/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/entities/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/entities/Platform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/entities/PlayerNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/model/BoardGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/davidebraghi/model/VideoGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/davidebraghi/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/davidebraghi/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/davidebraghi/ApplicationTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +24,15 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Enum" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -32,10 +53,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MainManager.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "vcs.Git"
