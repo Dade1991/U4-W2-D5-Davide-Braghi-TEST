@@ -27,11 +27,15 @@ public class MainManager {
         BoardGame boardGame3 = new BoardGame("C", "Unmatched", 2024, 33, PlayerNumber.TWO, 45);
         BoardGame boardGame4 = new BoardGame("D", "Risiko", 1990, 42, PlayerNumber.FIVE, 180);
         BoardGame boardGame5 = new BoardGame("E", "Nemesis", 2017, 120, PlayerNumber.FIVE, 120);
-        BoardGame boardGame7 = new BoardGame("F", "Zombicide Invader", 2025, 110.50, PlayerNumber.THREE, 100);
+        BoardGame boardGame6 = new BoardGame("F", "Zombicide Invader", 2025, 110.50, PlayerNumber.THREE, 100);
 
         System.out.println(videoGame1);
         System.out.println(boardGame1);
-        
+
+        GameManagerSystem GMS = new GameManagerSystem();
+
+        System.out.println(GMS.toString());
+
     }
 }
 
