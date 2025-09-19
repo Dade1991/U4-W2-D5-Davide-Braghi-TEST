@@ -11,6 +11,9 @@ import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
 public class GameManagerSystem {
+
+    // Mappiamo Game con CHIAVE: ID e VALORE: Game (VideGame o BoardGame)
+
     private Map<String, Game> gameItem = new HashMap<>();
 
     // Aggiunta di un item (Con controllo dei dublicati)
@@ -34,6 +37,7 @@ public class GameManagerSystem {
             }
         }
         throw new NoSuchElementException("ID " + id + " not found");
+
     }
 
     // Ricerca per prezzo
@@ -68,7 +72,7 @@ public class GameManagerSystem {
 
     // Statistiche di GameManagerSystem (totale numero Games, tot VideoGames, tot BoardGames, Game con prezzo più alto e media Games)
 
-    public String globalStats() {
+    public void globalStats() {
         int totalGames = gameItem.size();
         int videoGameCounter = 0;
         int boardGameCounter = 0;
@@ -117,9 +121,5 @@ public class GameManagerSystem {
         System.out.println("Board Games: " + boardGameCounter);
         System.out.println("Item with highest price: " + highestPrice);
         System.out.println("Average price: " + averagePrice);
-
-        // Intellij mi segnava errore e mi suggeriva di applicare un   return "";   esattamente com'è scritto sotto, non capisco
-
-        return "";
     }
 }
