@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
-public class GameManagerSystem {
+public class GameManagementSystem {
 
     // Mappiamo Game con CHIAVE: ID e VALORE: Game (VideGame o BoardGame)
 
@@ -52,12 +52,11 @@ public class GameManagerSystem {
 
     // Rimozione di un elemento con ID
 
-    public Game removeGameItem(String id) {
+    public void removeGameItem(String id) {
         Game removed = gameItem.remove(id);
         if (removed == null) {
             throw new NoSuchElementException("ID " + id + " not found. Cannot be removed.");
         }
-        return removed;
     }
 
     // Aggiornamento di un elemento con ID
@@ -71,7 +70,7 @@ public class GameManagerSystem {
 
     // Statistiche di GameManagerSystem (totale numero Games, tot VideoGames, tot BoardGames, Game con prezzo più alto e media Games)
 
-    public void globalStats() {
+    public void GlobalStats() {
         int totalGames = gameItem.size();
         int videoGameCounter = 0;
         int boardGameCounter = 0;

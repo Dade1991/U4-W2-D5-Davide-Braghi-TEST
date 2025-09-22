@@ -32,9 +32,11 @@ public class MainManager {
         System.out.println(videoGame1);
         System.out.println(boardGame1);
 
-        GameManagerSystem GMS = new GameManagerSystem();
+        GameManagementSystem GMS = new GameManagementSystem();
 
-        System.out.println(GMS.toString());
+        GMS.GlobalStats();
+
+        GMS.addItem(videoGame2);
 
     }
 }
